@@ -17,4 +17,4 @@ crontab line
 chown -R /home/ftpuser/*
 
 
-adding ssl is actually a hasle better keep ftpuser out of ssh and drop ssl but just in case<a href=*bookmarked*> here is a useful article
+adding ssl is actually a hasle better keep ftpuser out of ssh and drop ssl but just in case<a href=https://www.funoracleapps.com/2020/04/how-to-use-ftps-or-ssl-with-ftp-on-linux.html> here is a useful article
