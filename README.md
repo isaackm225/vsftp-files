@@ -33,7 +33,7 @@ crontab line
 chown -R /home/ftpuser/*
 
 
-adding ssl is actually a hasle better keep ftpuser out of ssh and drop ssl but just in case<a href=https://www.funoracleapps.com/2020/04/how-to-use-ftps-or-ssl-with-ftp-on-linux.html> here is a useful article
+adding ssl is actually a hasle better keep ftpuser out of ssh and drop ssl but just in case<a href=https://www.funoracleapps.com/2020/04/how-to-use-ftps-or-ssl-with-ftp-on-linux.html> here</a> is a useful article
 Along the way I figured out that adding ssl to the ftp make use of ssh => the ftpuser has to be on the sshd.conf to be able to connect. I don't want that (personal choice). There may be a way around but since the ftp server is running on my home network and the ftpuser is in a chroot jail i don't have to worry.
   
   
